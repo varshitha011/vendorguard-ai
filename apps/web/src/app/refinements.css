@@ -1,0 +1,95 @@
+/* Optical and readability adjustments shared by the operating workspace. */
+:root { --muted: #717969; }
+.overview-heading h1 { font-size: 36px; letter-spacing: -1.8px; line-height: 1.28; }
+.overview-heading { padding: 4px 0 7px; align-items: flex-end; }
+.overview-heading-right { padding-top: 0; gap: 16px; }
+.overview-heading .subtitle { font-size: 12px; color: #7b8370; }
+.page-stack { gap: 23px; }
+.stat.panel { padding: 21px 24px; }
+.stat-value { margin: 13px 0; }
+.stat-foot { color: #838a77; }
+.risk-feature-description { max-width: none; font-size: 12px; color: #afbea0; }
+.risk-feature-title { margin-top: 20px; }
+.feature-metrics { margin: 22px 0; }
+.feature-primary-metric strong { font-size: 66px; }
+.feature-primary-metric > span { font-size: 12px; }
+.feature-secondary-metric > span:last-child { color: #a0b390; font-size: 10px; }
+.feature-metric-label { color: #a5b498; font-size: 9px; }
+.runway-timeline-labels { color: #a8b997; font-size: 9px; }
+.timeline-axis { color: #a0b38e; font-size: 9px; flex-wrap: wrap; }
+.risk-feature-footer { padding: 16px 0; margin-top: 17px; }
+.risk-feature-footer > span { color: #a4b995; font-size: 10px; }
+.feature-action { font-size: 11px; }
+.runway-subtitle { color: #7d8970; font-size: 11px; }
+.runway-material { padding: 17px 0 16px; }
+.runway-material-bottom { color: #77856a; font-size: 10px; }
+.runway-foot { color: #7c886e; flex-wrap: wrap; font-size: 9px; }
+.runway-material-top strong { font-size: 12px; }
+.data-table th { color: #8c957f; font-size: 9px; }
+.data-table td, .supplier-name { font-size: 12px; }
+.supplier-location { color: #818c73; font-size: 10px; }
+.table-footer { color: #859273; font-size: 10px; }
+.portfolio-label strong, .portfolio-legend > span { color: #7b866e; font-size: 10px; }
+.panel-head p { color: #808b73; font-size: 12px; }
+.key-value { color: #7d896e; }
+.detail-body, .action-item { color: #758466; }
+.form-field label { color: #7e8b6d; }
+.filter-tab { color: #7f8c6c; font-size: 11px; }
+.filter-tab.active { color: #4d6339; }
+.section-heading h2 { font-size: 15px; }
+.panel-head h2 { font-size: 17px; }
+.material-tab small { color: #7e8d6b; font-size: 11px; }
+.chart-tooltip { color: #7e8e6c; }
+.alert-card p { color: #7c8b6d; }
+.alert-metrics small { color: #8c987d; }
+.command-footer { color: #7d8c6d; }
+.command-search input::placeholder { color: #839474; }
+.workspace-search { color: #828a76; }
+.nav-label { color: #99a691; }
+.nav-label span { opacity: .8; }
+.sidebar-note p span { color: #a0ae92; }
+.user-profile small { color: #a1ae94; }
+.app-footer { color: #909b7d; }
+@media (min-width: 1600px) {
+  .overview-heading h1 { font-size: 41px; }
+}
+@media (max-width: 1250px) {
+  .overview-heading h1 { font-size: 31px; max-width: 490px; }
+  .overview-heading-right { flex: none; }
+  .stat.panel { padding: 19px; }
+  .runway-material-top strong { font-size: 11px; }
+  .feature-primary-metric > span { font-size: 11px; }
+}
+@media (max-width: 1050px) {
+  .overview-heading h1 { max-width: 360px; }
+  .runway-material-top strong { font-size: 10px; }
+  .runway-material-bottom { font-size: 9px; }
+}
+@media (max-width: 760px) {
+  .overview-heading h1 { font-size: 33px; max-width: 360px; }
+  .risk-feature-description { font-size: 12px; }
+  .runway-material-top strong { font-size: 12px; }
+  .runway-material-bottom { font-size: 10px; }
+  .stat-foot { font-size: 10px; }
+  .risk-feature-title h2 { font-size: 27px; }
+  .portfolio-legend > span { font-size: 10px; }
+  .filter-tab { min-height: 35px; }
+}
+@media (max-width: 460px) {
+  .overview-heading h1 { font-size: 37px; max-width: 340px; letter-spacing: -2px; }
+  .overview-heading h1 > span { display: block; }
+  .overview-heading-right { align-items: center; width: 100%; }
+  .risk-feature { padding: 23px 22px 0; }
+  .feature-primary-metric strong { font-size: 57px; }
+  .feature-primary-metric > span { font-size: 10px; }
+  .feature-metric-label { font-size: 8px; line-height: 1.6; }
+  .feature-secondary-metric > span:last-child { font-size: 9px; line-height: 1.6; }
+  .feature-secondary-metric { padding-left: 17px; }
+  .timeline-axis { font-size: 8px; }
+  .runway-timeline-labels { font-size: 8px; }
+  .feature-index { font-size: 8px; }
+  .stat-top { font-size: 10px; }
+  .stat-foot { font-size: 9px; }
+  .risk-feature-footer { gap: 14px; }
+  .risk-feature-footer .feature-action { min-height: 42px; }
+}
