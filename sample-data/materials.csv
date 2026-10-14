@@ -1,11 +1,22 @@
+# SYNTHETIC TEST DATA — NOT REAL MATERIAL INFORMATION
 name,canonical_unit,criticality
-PE resin HD-500,kg,tier_1
-PVDC barrier film,kg,tier_1
-White masterbatch,kg,tier_2
-Polypropylene granules,kg,tier_1
-Adhesive coating,litre,tier_2
-Cardboard liner,units,tier_3
-Steel wire mesh,kg,tier_2
-Solvent base,litre,tier_1
-Foam padding,kg,tier_3
-Aluminium foil,kg,tier_2
+Polyethylene Resin HD-500,kg,tier_1
+Polyethylene Resin LD-200,kg,tier_1
+High Barrier PVDC Film 25um,rolls,tier_1
+3-Ply Corrugated Shipping Cartons,units,tier_2
+White Masterbatch MB-01,kg,tier_2
+Biaxially-Oriented PP Film,rolls,tier_1
+Adhesive Coating AC-100,litre,tier_2
+Solvent Base SB-200,litre,tier_1
+Foam Padding FP-50,kg,tier_3
+Aluminium Foil AF-12,kg,tier_2
+Polypropylene Granules PP-300,kg,tier_1
+HDPE Resin Grade A,kg,tier_1
+LDPE Film 20um,rolls,tier_2
+Nylon Film 15um,rolls,tier_1
+PET Film 12um,rolls,tier_2
+Ink Black BK-100,litre,tier_3
+Ink Blue BL-200,litre,tier_3
+Ink Red RD-300,litre,tier_3
+Stretch Film SF-25,rolls,tier_2
+Shrink Film SH-30,rolls,tier_2

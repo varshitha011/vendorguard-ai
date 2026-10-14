@@ -1,12 +1,47 @@
+# SYNTHETIC TEST DATA — NOT REAL SUPPLIER-MATERIAL RELATIONSHIPS
 supplier_name,material_name,normal_lead_time_days,is_approved
-Apex Polymers Ltd,PE resin HD-500,7,true
-Apex Polymers Ltd,PVDC barrier film,10,true
-Global Packaging Co,White masterbatch,5,true
-Global Packaging Co,Cardboard liner,3,true
-FutureFlex Materials,Polypropylene granules,8,true
-Prime Chemicals India,Adhesive coating,6,true
-Prime Chemicals India,Solvent base,7,true
-EcoWrap Solutions,Foam padding,4,true
-EcoWrap Solutions,Aluminium foil,5,true
-Reliable Resins Ltd,PE resin HD-500,9,true
-SteelCore Supplies,Steel wire mesh,6,true
+Apex Polymers Ltd,Polyethylene Resin HD-500,7,true
+Apex Polymers Ltd,Polypropylene Granules PP-300,8,true
+NovaPlast Resins Corp,Polyethylene Resin LD-200,5,true
+NovaPlast Resins Corp,HDPE Resin Grade A,6,true
+FlexiFilm Global,High Barrier PVDC Film 25um,10,true
+FlexiFilm Global,LDPE Film 20um,8,true
+PackPro Corrugated Co,3-Ply Corrugated Shipping Cartons,3,true
+ChromaColor Labs,White Masterbatch MB-01,5,true
+ShieldBarrier Films,Biaxially-Oriented PP Film,7,true
+ShieldBarrier Films,Nylon Film 15um,9,true
+Delta Resins & Chemicals,Polyethylene Resin HD-500,9,true
+Delta Resins & Chemicals,Polyethylene Resin LD-200,10,true
+BrightPack Industries,3-Ply Corrugated Shipping Cartons,4,true
+CoastLine Polymers,Polypropylene Granules PP-300,6,true
+Summit Packaging Corp,Stretch Film SF-25,5,true
+Summit Packaging Corp,Shrink Film SH-30,5,true
+Horizon Resins Inc,Polyethylene Resin HD-500,8,true
+VersaFilm Solutions,PET Film 12um,7,true
+CoreMat Technologies,Adhesive Coating AC-100,4,true
+ProShield Laminates,Nylon Film 15um,8,true
+GlobalPack Partners,3-Ply Corrugated Shipping Cartons,3,true
+EliteFlex Materials,Biaxially-Oriented PP Film,6,true
+TechBarrier Corp,High Barrier PVDC Film 25um,11,true
+PrimeChem Supplies,Solvent Base SB-200,5,true
+UltraPack Systems,Stretch Film SF-25,4,true
+SupremeCoat Ltd,Adhesive Coating AC-100,5,true
+AlphaResin Group,Polyethylene Resin HD-500,7,true
+BetaFilm Industries,LDPE Film 20um,6,true
+GammaPlast Corp,Polypropylene Granules PP-300,7,true
+DeltaCoat Solutions,Adhesive Coating AC-100,4,true
+EpsilonPack Ltd,Shrink Film SH-30,5,true
+ZetaResin Technologies,HDPE Resin Grade A,8,true
+EtaBarrier Corp,High Barrier PVDC Film 25um,10,true
+ThetaPack Industries,Foam Padding FP-50,4,true
+IotaFlex Materials,Biaxially-Oriented PP Film,7,true
+KappaChem Ltd,Solvent Base SB-200,6,true
+LambdaFilm Corp,PET Film 12um,8,true
+MuPlast Industries,Polyethylene Resin LD-200,7,true
+NuCoat Solutions,Adhesive Coating AC-100,5,true
+XiBarrier Technologies,Nylon Film 15um,9,true
+Precision Polymers Inc,Polyethylene Resin HD-500,6,true
+Quantum Resins Ltd,HDPE Resin Grade A,7,true
+Nexus Film Technologies,PET Film 12um,8,true
+Vertex Packaging Corp,Stretch Film SF-25,4,true
+Pinnacle Chemicals Ltd,Solvent Base SB-200,5,true

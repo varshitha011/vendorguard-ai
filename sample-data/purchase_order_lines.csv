@@ -1,12 +1,173 @@
+# SYNTHETIC TEST DATA
 po_number,line_number,supplier_name,material_name,ordered_quantity,unit,committed_due_date
-PO-2026-001,1,Apex Polymers Ltd,PE resin HD-500,5000,kg,2026-10-15
-PO-2026-001,2,Apex Polymers Ltd,PVDC barrier film,2000,kg,2026-10-15
-PO-2026-002,1,Global Packaging Co,White masterbatch,1000,kg,2026-10-12
-PO-2026-002,2,Global Packaging Co,Cardboard liner,5000,units,2026-10-10
-PO-2026-003,1,FutureFlex Materials,Polypropylene granules,3000,kg,2026-10-18
-PO-2026-004,1,Prime Chemicals India,Adhesive coating,500,litre,2026-10-14
-PO-2026-004,2,Prime Chemicals India,Solvent base,300,litre,2026-10-14
-PO-2026-005,1,EcoWrap Solutions,Foam padding,800,kg,2026-10-20
-PO-2026-005,2,EcoWrap Solutions,Aluminium foil,1200,kg,2026-10-20
-PO-2026-006,1,SteelCore Supplies,Steel wire mesh,2500,kg,2026-10-22
-PO-2026-007,1,Reliable Resins Ltd,PE resin HD-500,4000,kg,2026-10-25
+PO-2026-1000,1,Apex Polymers Ltd,Polyethylene Resin HD-500,1500,kg,2026-10-01
+PO-2026-1001,1,Apex Polymers Ltd,3-Ply Corrugated Shipping Cartons,1500,units,2026-09-16
+PO-2026-1002,1,NovaPlast Resins Corp,Nylon Film 15um,100,rolls,2026-10-09
+PO-2026-1003,1,NovaPlast Resins Corp,Shrink Film SH-30,1000,rolls,2026-10-09
+PO-2026-1004,1,FlexiFilm Global,Solvent Base SB-200,500,litre,2026-09-21
+PO-2026-1005,1,FlexiFilm Global,Biaxially-Oriented PP Film,1500,rolls,2026-09-26
+PO-2026-1006,1,FlexiFilm Global,White Masterbatch MB-01,200,kg,2026-09-15
+PO-2026-1007,1,FlexiFilm Global,High Barrier PVDC Film 25um,500,rolls,2026-10-06
+PO-2026-1008,1,FlexiFilm Global,Foam Padding FP-50,2000,kg,2026-10-08
+PO-2026-1009,1,PackPro Corrugated Co,LDPE Film 20um,100,rolls,2026-09-22
+PO-2026-1010,1,PackPro Corrugated Co,HDPE Resin Grade A,1000,kg,2026-10-03
+PO-2026-1011,1,ChromaColor Labs,Polyethylene Resin LD-200,1500,kg,2026-10-02
+PO-2026-1012,1,ChromaColor Labs,Solvent Base SB-200,2000,litre,2026-10-06
+PO-2026-1013,1,ShieldBarrier Films,Biaxially-Oriented PP Film,300,rolls,2026-09-28
+PO-2026-1014,1,ShieldBarrier Films,High Barrier PVDC Film 25um,1000,rolls,2026-09-19
+PO-2026-1015,1,ShieldBarrier Films,Biaxially-Oriented PP Film,500,rolls,2026-09-27
+PO-2026-1016,1,ShieldBarrier Films,Polypropylene Granules PP-300,2000,kg,2026-09-15
+PO-2026-1017,1,Delta Resins & Chemicals,Polypropylene Granules PP-300,500,kg,2026-10-01
+PO-2026-1018,1,Delta Resins & Chemicals,Polypropylene Granules PP-300,200,kg,2026-09-19
+PO-2026-1019,1,BrightPack Industries,White Masterbatch MB-01,300,kg,2026-10-05
+PO-2026-1020,1,BrightPack Industries,Foam Padding FP-50,1500,kg,2026-09-21
+PO-2026-1021,1,BrightPack Industries,LDPE Film 20um,300,rolls,2026-10-02
+PO-2026-1022,1,BrightPack Industries,High Barrier PVDC Film 25um,2000,rolls,2026-10-08
+PO-2026-1023,1,BrightPack Industries,Biaxially-Oriented PP Film,2000,rolls,2026-09-18
+PO-2026-1024,1,CoastLine Polymers,LDPE Film 20um,1000,rolls,2026-09-25
+PO-2026-1025,1,CoastLine Polymers,Polyethylene Resin HD-500,1500,kg,2026-09-16
+PO-2026-1026,1,CoastLine Polymers,Polypropylene Granules PP-300,100,kg,2026-09-30
+PO-2026-1027,1,CoastLine Polymers,PET Film 12um,100,rolls,2026-09-16
+PO-2026-1028,1,CoastLine Polymers,Shrink Film SH-30,2000,rolls,2026-10-04
+PO-2026-1029,1,Summit Packaging Corp,Shrink Film SH-30,1000,rolls,2026-10-03
+PO-2026-1030,1,Summit Packaging Corp,Shrink Film SH-30,100,rolls,2026-09-20
+PO-2026-1031,1,Summit Packaging Corp,HDPE Resin Grade A,2000,kg,2026-09-14
+PO-2026-1032,1,Summit Packaging Corp,High Barrier PVDC Film 25um,100,rolls,2026-09-16
+PO-2026-1033,1,Horizon Resins Inc,White Masterbatch MB-01,1500,kg,2026-09-24
+PO-2026-1034,1,Horizon Resins Inc,Shrink Film SH-30,2000,rolls,2026-09-20
+PO-2026-1035,1,Horizon Resins Inc,Adhesive Coating AC-100,1500,litre,2026-09-30
+PO-2026-1036,1,VersaFilm Solutions,PET Film 12um,1000,rolls,2026-09-25
+PO-2026-1037,1,VersaFilm Solutions,Solvent Base SB-200,100,litre,2026-09-29
+PO-2026-1038,1,VersaFilm Solutions,Solvent Base SB-200,100,litre,2026-10-07
+PO-2026-1039,1,VersaFilm Solutions,Solvent Base SB-200,100,litre,2026-10-08
+PO-2026-1040,1,CoreMat Technologies,Foam Padding FP-50,1500,kg,2026-09-24
+PO-2026-1041,1,CoreMat Technologies,Stretch Film SF-25,200,rolls,2026-09-14
+PO-2026-1042,1,CoreMat Technologies,3-Ply Corrugated Shipping Cartons,1500,units,2026-09-26
+PO-2026-1043,1,ProShield Laminates,3-Ply Corrugated Shipping Cartons,100,units,2026-09-27
+PO-2026-1044,1,ProShield Laminates,3-Ply Corrugated Shipping Cartons,200,units,2026-10-03
+PO-2026-1045,1,GlobalPack Partners,Nylon Film 15um,200,rolls,2026-10-01
+PO-2026-1046,1,GlobalPack Partners,High Barrier PVDC Film 25um,500,rolls,2026-09-14
+PO-2026-1047,1,GlobalPack Partners,Polyethylene Resin LD-200,1500,kg,2026-09-22
+PO-2026-1048,1,EliteFlex Materials,Biaxially-Oriented PP Film,500,rolls,2026-09-24
+PO-2026-1049,1,EliteFlex Materials,Polyethylene Resin LD-200,200,kg,2026-09-27
+PO-2026-1050,1,EliteFlex Materials,PET Film 12um,300,rolls,2026-09-26
+PO-2026-1051,1,TechBarrier Corp,White Masterbatch MB-01,200,kg,2026-09-30
+PO-2026-1052,1,TechBarrier Corp,Polyethylene Resin LD-200,1500,kg,2026-09-29
+PO-2026-1053,1,TechBarrier Corp,Stretch Film SF-25,1000,rolls,2026-09-23
+PO-2026-1054,1,TechBarrier Corp,Shrink Film SH-30,100,rolls,2026-10-04
+PO-2026-1055,1,TechBarrier Corp,Solvent Base SB-200,500,litre,2026-10-06
+PO-2026-1056,1,PrimeChem Supplies,High Barrier PVDC Film 25um,500,rolls,2026-09-18
+PO-2026-1057,1,PrimeChem Supplies,Foam Padding FP-50,200,kg,2026-09-18
+PO-2026-1058,1,UltraPack Systems,Foam Padding FP-50,500,kg,2026-10-05
+PO-2026-1059,1,UltraPack Systems,Aluminium Foil AF-12,500,kg,2026-09-29
+PO-2026-1060,1,UltraPack Systems,3-Ply Corrugated Shipping Cartons,100,units,2026-09-22
+PO-2026-1061,1,SupremeCoat Ltd,High Barrier PVDC Film 25um,200,rolls,2026-09-28
+PO-2026-1062,1,SupremeCoat Ltd,Aluminium Foil AF-12,1000,kg,2026-09-14
+PO-2026-1063,1,SupremeCoat Ltd,Aluminium Foil AF-12,1500,kg,2026-10-06
+PO-2026-1064,1,SupremeCoat Ltd,3-Ply Corrugated Shipping Cartons,1500,units,2026-09-22
+PO-2026-1065,1,AlphaResin Group,Polypropylene Granules PP-300,200,kg,2026-09-18
+PO-2026-1066,1,AlphaResin Group,Shrink Film SH-30,500,rolls,2026-10-01
+PO-2026-1067,1,AlphaResin Group,Nylon Film 15um,2000,rolls,2026-10-01
+PO-2026-1068,1,BetaFilm Industries,White Masterbatch MB-01,1500,kg,2026-10-01
+PO-2026-1069,1,BetaFilm Industries,Nylon Film 15um,1000,rolls,2026-10-09
+PO-2026-1070,1,BetaFilm Industries,White Masterbatch MB-01,1000,kg,2026-10-08
+PO-2026-1071,1,BetaFilm Industries,Nylon Film 15um,200,rolls,2026-10-08
+PO-2026-1072,1,GammaPlast Corp,HDPE Resin Grade A,200,kg,2026-09-18
+PO-2026-1073,1,GammaPlast Corp,HDPE Resin Grade A,2000,kg,2026-09-22
+PO-2026-1074,1,DeltaCoat Solutions,Solvent Base SB-200,2000,litre,2026-10-04
+PO-2026-1075,1,DeltaCoat Solutions,Polyethylene Resin HD-500,200,kg,2026-09-16
+PO-2026-1076,1,DeltaCoat Solutions,Solvent Base SB-200,300,litre,2026-10-04
+PO-2026-1077,1,EpsilonPack Ltd,Polyethylene Resin LD-200,2000,kg,2026-09-24
+PO-2026-1078,1,EpsilonPack Ltd,PET Film 12um,300,rolls,2026-09-30
+PO-2026-1079,1,EpsilonPack Ltd,Adhesive Coating AC-100,500,litre,2026-09-29
+PO-2026-1080,1,EpsilonPack Ltd,Foam Padding FP-50,300,kg,2026-09-19
+PO-2026-1081,1,EpsilonPack Ltd,LDPE Film 20um,1500,rolls,2026-09-22
+PO-2026-1082,1,ZetaResin Technologies,Biaxially-Oriented PP Film,1000,rolls,2026-10-01
+PO-2026-1083,1,ZetaResin Technologies,Nylon Film 15um,300,rolls,2026-09-16
+PO-2026-1084,1,ZetaResin Technologies,Shrink Film SH-30,100,rolls,2026-09-27
+PO-2026-1085,1,ZetaResin Technologies,Polyethylene Resin LD-200,1500,kg,2026-09-26
+PO-2026-1086,1,EtaBarrier Corp,HDPE Resin Grade A,500,kg,2026-10-07
+PO-2026-1087,1,EtaBarrier Corp,Polypropylene Granules PP-300,1500,kg,2026-10-06
+PO-2026-1088,1,EtaBarrier Corp,Shrink Film SH-30,300,rolls,2026-09-18
+PO-2026-1089,1,ThetaPack Industries,Aluminium Foil AF-12,1000,kg,2026-10-05
+PO-2026-1090,1,ThetaPack Industries,LDPE Film 20um,1500,rolls,2026-09-16
+PO-2026-1091,1,ThetaPack Industries,LDPE Film 20um,1000,rolls,2026-10-09
+PO-2026-1092,1,ThetaPack Industries,Polypropylene Granules PP-300,500,kg,2026-09-25
+PO-2026-1093,1,ThetaPack Industries,Stretch Film SF-25,2000,rolls,2026-09-14
+PO-2026-1094,1,IotaFlex Materials,High Barrier PVDC Film 25um,300,rolls,2026-09-23
+PO-2026-1095,1,IotaFlex Materials,Polypropylene Granules PP-300,100,kg,2026-09-15
+PO-2026-1096,1,IotaFlex Materials,Solvent Base SB-200,2000,litre,2026-10-03
+PO-2026-1097,1,KappaChem Ltd,Stretch Film SF-25,1000,rolls,2026-09-15
+PO-2026-1098,1,KappaChem Ltd,Nylon Film 15um,1500,rolls,2026-09-21
+PO-2026-1099,1,KappaChem Ltd,Stretch Film SF-25,500,rolls,2026-10-02
+PO-2026-1100,1,LambdaFilm Corp,Nylon Film 15um,200,rolls,2026-10-04
+PO-2026-1101,1,LambdaFilm Corp,Shrink Film SH-30,500,rolls,2026-10-08
+PO-2026-1102,1,MuPlast Industries,3-Ply Corrugated Shipping Cartons,500,units,2026-10-05
+PO-2026-1103,1,MuPlast Industries,Polypropylene Granules PP-300,2000,kg,2026-09-25
+PO-2026-1104,1,MuPlast Industries,Shrink Film SH-30,500,rolls,2026-09-22
+PO-2026-1105,1,NuCoat Solutions,PET Film 12um,300,rolls,2026-09-15
+PO-2026-1106,1,NuCoat Solutions,Shrink Film SH-30,500,rolls,2026-09-19
+PO-2026-1107,1,NuCoat Solutions,PET Film 12um,100,rolls,2026-09-17
+PO-2026-1108,1,NuCoat Solutions,Foam Padding FP-50,300,kg,2026-09-29
+PO-2026-1109,1,NuCoat Solutions,White Masterbatch MB-01,200,kg,2026-10-02
+PO-2026-1110,1,XiBarrier Technologies,High Barrier PVDC Film 25um,500,rolls,2026-09-26
+PO-2026-1111,1,XiBarrier Technologies,Polyethylene Resin LD-200,200,kg,2026-09-26
+PO-2026-1112,1,XiBarrier Technologies,Polyethylene Resin HD-500,2000,kg,2026-09-15
+PO-2026-1113,1,OmicronPack Ltd,Stretch Film SF-25,100,rolls,2026-09-28
+PO-2026-1114,1,OmicronPack Ltd,Nylon Film 15um,1000,rolls,2026-09-16
+PO-2026-1115,1,OmicronPack Ltd,Solvent Base SB-200,500,litre,2026-10-02
+PO-2026-1116,1,OmicronPack Ltd,Polyethylene Resin HD-500,500,kg,2026-09-29
+PO-2026-1117,1,OmicronPack Ltd,LDPE Film 20um,1500,rolls,2026-10-04
+PO-2026-1118,1,PiResin Corp,LDPE Film 20um,1000,rolls,2026-09-21
+PO-2026-1119,1,PiResin Corp,High Barrier PVDC Film 25um,1500,rolls,2026-09-26
+PO-2026-1120,1,RhoFilm Industries,Polyethylene Resin LD-200,300,kg,2026-09-27
+PO-2026-1121,1,RhoFilm Industries,Polypropylene Granules PP-300,2000,kg,2026-09-27
+PO-2026-1122,1,RhoFilm Industries,High Barrier PVDC Film 25um,500,rolls,2026-10-09
+PO-2026-1123,1,SigmaChem Ltd,HDPE Resin Grade A,200,kg,2026-09-19
+PO-2026-1124,1,SigmaChem Ltd,Polyethylene Resin LD-200,2000,kg,2026-10-09
+PO-2026-1125,1,TauCoat Corp,White Masterbatch MB-01,200,kg,2026-10-05
+PO-2026-1126,1,TauCoat Corp,Adhesive Coating AC-100,500,litre,2026-09-17
+PO-2026-1127,1,UpsilonPack Solutions,3-Ply Corrugated Shipping Cartons,2000,units,2026-10-04
+PO-2026-1128,1,UpsilonPack Solutions,Aluminium Foil AF-12,1000,kg,2026-09-18
+PO-2026-1129,1,UpsilonPack Solutions,Adhesive Coating AC-100,100,litre,2026-09-21
+PO-2026-1130,1,PhiResin Technologies,3-Ply Corrugated Shipping Cartons,1500,units,2026-09-15
+PO-2026-1131,1,PhiResin Technologies,3-Ply Corrugated Shipping Cartons,2000,units,2026-09-21
+PO-2026-1132,1,PhiResin Technologies,Nylon Film 15um,1500,rolls,2026-09-28
+PO-2026-1133,1,ChiFilm Corp,Polyethylene Resin HD-500,2000,kg,2026-09-26
+PO-2026-1134,1,ChiFilm Corp,Nylon Film 15um,300,rolls,2026-09-19
+PO-2026-1135,1,ChiFilm Corp,Nylon Film 15um,200,rolls,2026-09-16
+PO-2026-1136,1,ChiFilm Corp,Stretch Film SF-25,500,rolls,2026-09-26
+PO-2026-1137,1,PsiPlast Industries,Solvent Base SB-200,2000,litre,2026-10-07
+PO-2026-1138,1,PsiPlast Industries,PET Film 12um,1000,rolls,2026-09-20
+PO-2026-1139,1,PsiPlast Industries,LDPE Film 20um,300,rolls,2026-10-09
+PO-2026-1140,1,PsiPlast Industries,Adhesive Coating AC-100,300,litre,2026-09-14
+PO-2026-1141,1,OmegaBarrier Ltd,Polyethylene Resin HD-500,1000,kg,2026-10-03
+PO-2026-1142,1,OmegaBarrier Ltd,Nylon Film 15um,500,rolls,2026-09-22
+PO-2026-1143,1,OmegaBarrier Ltd,Stretch Film SF-25,500,rolls,2026-09-14
+PO-2026-1144,1,OmegaBarrier Ltd,Solvent Base SB-200,500,litre,2026-09-17
+PO-2026-1145,1,NorthStar Polymers,Stretch Film SF-25,1000,rolls,2026-09-23
+PO-2026-1146,1,NorthStar Polymers,Polypropylene Granules PP-300,300,kg,2026-09-17
+PO-2026-1147,1,NorthStar Polymers,Aluminium Foil AF-12,300,kg,2026-10-02
+PO-2026-1148,1,NorthStar Polymers,Polypropylene Granules PP-300,100,kg,2026-09-16
+PO-2026-1149,1,SouthWave Resins,Adhesive Coating AC-100,1500,litre,2026-09-24
+PO-2026-1150,1,SouthWave Resins,Shrink Film SH-30,1000,rolls,2026-09-30
+PO-2026-1151,1,SouthWave Resins,HDPE Resin Grade A,200,kg,2026-09-30
+PO-2026-1152,1,EastCoast Packaging,Polyethylene Resin LD-200,100,kg,2026-09-22
+PO-2026-1153,1,EastCoast Packaging,White Masterbatch MB-01,1500,kg,2026-09-15
+PO-2026-1154,1,EastCoast Packaging,Polyethylene Resin HD-500,1000,kg,2026-09-30
+PO-2026-1155,1,EastCoast Packaging,Polypropylene Granules PP-300,200,kg,2026-10-08
+PO-2026-1156,1,WestEdge Materials,3-Ply Corrugated Shipping Cartons,2000,units,2026-10-07
+PO-2026-1157,1,WestEdge Materials,High Barrier PVDC Film 25um,1000,rolls,2026-09-19
+PO-2026-1158,1,WestEdge Materials,White Masterbatch MB-01,200,kg,2026-09-14
+PO-2026-1159,1,WestEdge Materials,High Barrier PVDC Film 25um,200,rolls,2026-10-06
+PO-2026-1160,1,WestEdge Materials,Solvent Base SB-200,2000,litre,2026-09-23
+PO-2026-1161,1,CentralPack Corp,Aluminium Foil AF-12,2000,kg,2026-09-21
+PO-2026-1162,1,CentralPack Corp,Polyethylene Resin LD-200,1000,kg,2026-09-16
+PO-2026-1163,1,CentralPack Corp,Foam Padding FP-50,1500,kg,2026-10-07
+PO-2026-1164,1,CentralPack Corp,High Barrier PVDC Film 25um,200,rolls,2026-10-09
+PO-2026-1165,1,CentralPack Corp,Stretch Film SF-25,300,rolls,2026-10-08
+PO-2026-1166,1,MidWest Films,High Barrier PVDC Film 25um,1500,rolls,2026-10-02
+PO-2026-1167,1,MidWest Films,Adhesive Coating AC-100,500,litre,2026-10-06
+PO-2026-1168,1,MidWest Films,White Masterbatch MB-01,300,kg,2026-10-05
+PO-2026-1169,1,MidWest Films,Aluminium Foil AF-12,1000,kg,2026-09-16
+PO-2026-1170,1,MidWest Films,PET Film 12um,100,rolls,2026-09-25

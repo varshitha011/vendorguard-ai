@@ -1,0 +1,19 @@
+# SYNTHETIC TEST DATA
+material_name,warehouse,on_hand_quantity,reserved_quantity,observed_at
+Polyethylene Resin HD-500,Main Warehouse,924,69,2026-10-14T00:00:00Z
+Polyethylene Resin LD-200,Main Warehouse,1124,138,2026-10-14T00:00:00Z
+High Barrier PVDC Film 25um,Main Warehouse,1111,112,2026-10-14T00:00:00Z
+3-Ply Corrugated Shipping Cartons,Main Warehouse,264,38,2026-10-14T00:00:00Z
+White Masterbatch MB-01,Main Warehouse,181,27,2026-10-14T00:00:00Z
+Biaxially-Oriented PP Film,Main Warehouse,1604,165,2026-10-14T00:00:00Z
+Adhesive Coating AC-100,Main Warehouse,1336,128,2026-10-14T00:00:00Z
+Solvent Base SB-200,Main Warehouse,152,2,2026-10-14T00:00:00Z
+Foam Padding FP-50,Main Warehouse,568,86,2026-10-14T00:00:00Z
+Aluminium Foil AF-12,Main Warehouse,1812,294,2026-10-14T00:00:00Z
+Polypropylene Granules PP-300,Main Warehouse,1302,10,2026-10-14T00:00:00Z
+HDPE Resin Grade A,Main Warehouse,1666,137,2026-10-14T00:00:00Z
+LDPE Film 20um,Main Warehouse,1280,20,2026-10-14T00:00:00Z
+Nylon Film 15um,Main Warehouse,1662,89,2026-10-14T00:00:00Z
+PET Film 12um,Main Warehouse,1063,132,2026-10-14T00:00:00Z
+Stretch Film SF-25,Main Warehouse,1434,226,2026-10-14T00:00:00Z
+Shrink Film SH-30,Main Warehouse,1976,142,2026-10-14T00:00:00Z

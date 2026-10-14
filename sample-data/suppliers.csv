@@ -1,8 +1,103 @@
+# SYNTHETIC TEST DATA — NOT REAL SUPPLIER INFORMATION
 legal_name,aliases,domain,location
-Apex Polymers Ltd,Apex;Apex Poly,apexpolymers.com,Mumbai, India
-Global Packaging Co,GPC;Global Pack,globalpack.com,Chennai, India
-FutureFlex Materials,FutureFlex;FFM,futureflex.in,Pune, India
-Prime Chemicals India,Prime Chem;PCI,primechem.co.in,Ahmedabad, India
-EcoWrap Solutions,EcoWrap;EWS,ecowrap.in,Delhi, India
-Reliable Resins Ltd,Reliable;RRL,reliableresins.com,Hyderabad, India
-SteelCore Supplies,SteelCore;SCS,steelcore.in,Kolkata, India
+Apex Polymers Ltd,Apex Poly;Apex Chem,apexpolymers.com,Houston TX
+NovaPlast Resins Corp,NovaPlast;Nova Polymers,novaplast.com,Baton Rouge LA
+FlexiFilm Global,FlexiFilm;Flexi Extrusions,flexifilm.com,Greenville SC
+PackPro Corrugated Co,PackPro Boxes;PackPro Packaging,packpro.com,Columbus OH
+ChromaColor Labs,ChromaColor;Chroma Masterbatch,chromacolor.com,McHenry IL
+ShieldBarrier Films,ShieldBarrier;Shield Co,shieldbarrier.com,Allentown PA
+Delta Resins & Chemicals,Delta Resins;Delta Chem,deltaresins.com,Beaumont TX
+BrightPack Industries,BrightPack;Bright Industries,brightpack.com,Memphis TN
+CoastLine Polymers,CoastLine;CLP,coastlinepolymers.com,Mobile AL
+Summit Packaging Corp,Summit Pack;SPC,summitpack.com,Denver CO
+Horizon Resins Inc,Horizon;HRI,horizonresins.com,Houston TX
+VersaFilm Solutions,VersaFilm;VFS,versafilm.com,Charlotte NC
+CoreMat Technologies,CoreMat;CMT,coremat.com,Phoenix AZ
+ProShield Laminates,ProShield;PSL,proshield.com,Detroit MI
+GlobalPack Partners,GlobalPack;GPP,globalpack.com,Chicago IL
+EliteFlex Materials,EliteFlex;EFM,eliteflex.com,Atlanta GA
+TechBarrier Corp,TechBarrier;TBC,techbarrier.com,Seattle WA
+PrimeChem Supplies,PrimeChem;PCS,primechem.com,Dallas TX
+UltraPack Systems,UltraPack;UPS Packaging,ultrapack.com,Portland OR
+SupremeCoat Ltd,SupremeCoat;SCL,supremecoat.com,Nashville TN
+AlphaResin Group,AlphaResin;ARG,alpharesin.com,Kansas City MO
+BetaFilm Industries,BetaFilm;BFI,betafilm.com,Indianapolis IN
+GammaPlast Corp,GammaPlast;GPC,gammaplast.com,Columbus OH
+DeltaCoat Solutions,DeltaCoat;DCS,deltacoat.com,Louisville KY
+EpsilonPack Ltd,EpsilonPack;EPL,epsilonpack.com,Cincinnati OH
+ZetaResin Technologies,ZetaResin;ZRT,zetaresin.com,Pittsburgh PA
+EtaBarrier Corp,EtaBarrier;EBC,etabarrier.com,Cleveland OH
+ThetaPack Industries,ThetaPack;TPI,thetapack.com,Milwaukee WI
+IotaFlex Materials,IotaFlex;IFM,iotaflex.com,Minneapolis MN
+KappaChem Ltd,KappaChem;KCL,kappachem.com,St Louis MO
+LambdaFilm Corp,LambdaFilm;LFC,lambdafilm.com,Detroit MI
+MuPlast Industries,MuPlast;MPI,muplast.com,Chicago IL
+NuCoat Solutions,NuCoat;NCS,nucoat.com,Houston TX
+XiBarrier Technologies,XiBarrier;XBT,xibarrier.com,Dallas TX
+OmicronPack Ltd,OmicronPack;OPL,omicronpack.com,Denver CO
+PiResin Corp,PiResin;PRC,piresin.com,Phoenix AZ
+RhoFilm Industries,RhoFilm;RFI,rhofilm.com,Austin TX
+SigmaChem Ltd,SigmaChem;SCL2,sigmachem.com,San Antonio TX
+TauCoat Corp,TauCoat;TCC,taucoat.com,El Paso TX
+UpsilonPack Solutions,UpsilonPack;UPS2,upsilonpack.com,Fort Worth TX
+PhiResin Technologies,PhiResin;PRT,phiresin.com,Arlington TX
+ChiFilm Corp,ChiFilm;CFC,chifilm.com,Corpus Christi TX
+PsiPlast Industries,PsiPlast;PPI,psiplast.com,Lubbock TX
+OmegaBarrier Ltd,OmegaBarrier;OBL,omegabarrier.com,Laredo TX
+NorthStar Polymers,NorthStar;NSP,northstarpolymers.com,Minneapolis MN
+SouthWave Resins,SouthWave;SWR,southwaveresins.com,Miami FL
+EastCoast Packaging,EastCoast;ECP,eastcoastpack.com,Philadelphia PA
+WestEdge Materials,WestEdge;WEM,westedgematerials.com,Los Angeles CA
+CentralPack Corp,CentralPack;CPC,centralpack.com,Kansas City MO
+MidWest Films,MidWest;MWF,midwestfilms.com,Chicago IL
+SunBelt Polymers,SunBelt;SBP,sunbeltpolymers.com,Atlanta GA
+MountainView Resins,MountainView;MVR,mountainviewresins.com,Denver CO
+GulfCoast Chemicals,GulfCoast;GCC,gulfcoastchem.com,New Orleans LA
+PacificRim Packaging,PacificRim;PRP,pacificrimpack.com,Seattle WA
+GreatLakes Materials,GreatLakes;GLM,greatlakesmat.com,Cleveland OH
+TexasStar Resins,TexasStar;TSR,texasstarresins.com,Houston TX
+CaliforniaChem Corp,CalChem;CCC,californiachem.com,San Jose CA
+NewEngland Polymers,NEP;New England,newenglandpolymers.com,Boston MA
+SouthEast Films,SEF;SouthEast,southeastfilms.com,Charlotte NC
+Precision Polymers Inc,Precision;PPI2,precisionpolymers.com,Cincinnati OH
+Quantum Resins Ltd,Quantum;QRL,quantumresins.com,Nashville TN
+Nexus Film Technologies,Nexus;NFT,nexusfilm.com,Raleigh NC
+Vertex Packaging Corp,Vertex;VPC,vertexpack.com,Richmond VA
+Pinnacle Chemicals Ltd,Pinnacle;PCL,pinncachechem.com,Jacksonville FL
+Apex Coatings Inc,Apex Coat;ACI,apexcoatings.com,Tampa FL
+Meridian Films Group,Meridian;MFG,meridianfilms.com,Orlando FL
+Horizon Packaging Inc,Horizon Pack;HPI,horizonpack.com,Fort Lauderdale FL
+Zenith Resins Corp,Zenith;ZRC,zenithresins.com,Miami FL
+Atlas Materials Ltd,Atlas;AML,atlasmaterials.com,Hialeah FL
+Vantage Polymers Inc,Vantage;VPI,vantagepolymers.com,Tallahassee FL
+Crest Chemicals Corp,Crest;CCC2,crestchem.com,Gainesville FL
+Beacon Packaging Ltd,Beacon;BPL,beaconpack.com,Pensacola FL
+Prism Films Inc,Prism;PFI,prismfilms.com,Baton Rouge LA
+Cascade Resins Corp,Cascade;CRC,cascaderesins.com,New Orleans LA
+Sterling Materials Ltd,Sterling;SML,sterlingmat.com,Shreveport LA
+Frontier Polymers Inc,Frontier;FPI,frontierpolymers.com,Jackson MS
+Odyssey Packaging Corp,Odyssey;OPC,odysseypack.com,Birmingham AL
+Pioneer Chemicals Ltd,Pioneer;PCL2,pioneerchem.com,Montgomery AL
+Liberty Films Corp,Liberty;LFC2,libertyfilms.com,Huntsville AL
+Eagle Materials Inc,Eagle;EMI,eaglemat.com,Mobile AL
+Summit Resins Ltd,Summit Resins;SRL,summitresins.com,Memphis TN
+Valor Polymers Corp,Valor;VPC2,valorpolymers.com,Nashville TN
+Titan Packaging Inc,Titan;TPI2,titanpack.com,Knoxville TN
+Phoenix Chemicals Corp,Phoenix;PCC,phoenixchem.com,Chattanooga TN
+Triumph Films Ltd,Triumph;TFL,triumphfilms.com,Clarksville TN
+Victory Resins Inc,Victory;VRI,victoryresins.com,Murfreesboro TN
+Nexgen Polymers Corp,Nexgen;NPC,nexgenpolymers.com,Franklin TN
+Orion Materials Ltd,Orion;OML,orionmat.com,Germantown TN
+Solaris Packaging Inc,Solaris;SPI,solarispack.com,Bartlett TN
+Polaris Chemicals Corp,Polaris;PCC2,polarischem.com,Smyrna TN
+Vega Films Ltd,Vega;VFL,vegafilms.com,Collierville TN
+Sirius Resins Inc,Sirius;SRI,siriusresins.com,Spring Hill TN
+Rigel Polymers Corp,Rigel;RPC,rigelpolymers.com,Hendersonville TN
+Canopus Packaging Ltd,Canopus;CPL,canopuspack.com,Brentwood TN
+Arcturus Materials Inc,Arcturus;AMI2,arcturusmat.com,Cookeville TN
+Aldebaran Chemicals Corp,Aldebaran;ACC,aldebaranchem.com,Jackson TN
+Antares Films Ltd,Antares;AFL,antaresfilms.com,Columbia TN
+Capella Resins Inc,Capella;CRI,capellaresins.com,Murfreesboro TN
+Castor Polymers Corp,Castor;CPC3,castorpolymers.com,Lebanon TN
+Deneb Packaging Ltd,Deneb;DPL,denebpack.com,Gallatin TN
+Elnath Materials Inc,Elnath;EMI3,elnathmat.com,Shelbyville TN

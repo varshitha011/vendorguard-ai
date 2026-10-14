@@ -1,0 +1,512 @@
+# SYNTHETIC TEST DATA
+material_name,date,daily_quantity
+Polyethylene Resin HD-500,2026-10-14,60
+Polyethylene Resin HD-500,2026-10-15,57
+Polyethylene Resin HD-500,2026-10-16,61
+Polyethylene Resin HD-500,2026-10-17,58
+Polyethylene Resin HD-500,2026-10-18,52
+Polyethylene Resin HD-500,2026-10-19,58
+Polyethylene Resin HD-500,2026-10-20,56
+Polyethylene Resin HD-500,2026-10-21,57
+Polyethylene Resin HD-500,2026-10-22,56
+Polyethylene Resin HD-500,2026-10-23,56
+Polyethylene Resin HD-500,2026-10-24,61
+Polyethylene Resin HD-500,2026-10-25,52
+Polyethylene Resin HD-500,2026-10-26,53
+Polyethylene Resin HD-500,2026-10-27,56
+Polyethylene Resin HD-500,2026-10-28,57
+Polyethylene Resin HD-500,2026-10-29,58
+Polyethylene Resin HD-500,2026-10-30,55
+Polyethylene Resin HD-500,2026-10-31,61
+Polyethylene Resin HD-500,2026-11-01,57
+Polyethylene Resin HD-500,2026-11-02,59
+Polyethylene Resin HD-500,2026-11-03,51
+Polyethylene Resin HD-500,2026-11-04,58
+Polyethylene Resin HD-500,2026-11-05,52
+Polyethylene Resin HD-500,2026-11-06,56
+Polyethylene Resin HD-500,2026-11-07,55
+Polyethylene Resin HD-500,2026-11-08,56
+Polyethylene Resin HD-500,2026-11-09,52
+Polyethylene Resin HD-500,2026-11-10,57
+Polyethylene Resin HD-500,2026-11-11,59
+Polyethylene Resin HD-500,2026-11-12,51
+Polyethylene Resin LD-200,2026-10-14,181
+Polyethylene Resin LD-200,2026-10-15,180
+Polyethylene Resin LD-200,2026-10-16,179
+Polyethylene Resin LD-200,2026-10-17,173
+Polyethylene Resin LD-200,2026-10-18,176
+Polyethylene Resin LD-200,2026-10-19,181
+Polyethylene Resin LD-200,2026-10-20,178
+Polyethylene Resin LD-200,2026-10-21,182
+Polyethylene Resin LD-200,2026-10-22,180
+Polyethylene Resin LD-200,2026-10-23,183
+Polyethylene Resin LD-200,2026-10-24,180
+Polyethylene Resin LD-200,2026-10-25,173
+Polyethylene Resin LD-200,2026-10-26,176
+Polyethylene Resin LD-200,2026-10-27,177
+Polyethylene Resin LD-200,2026-10-28,181
+Polyethylene Resin LD-200,2026-10-29,175
+Polyethylene Resin LD-200,2026-10-30,177
+Polyethylene Resin LD-200,2026-10-31,180
+Polyethylene Resin LD-200,2026-11-01,180
+Polyethylene Resin LD-200,2026-11-02,174
+Polyethylene Resin LD-200,2026-11-03,173
+Polyethylene Resin LD-200,2026-11-04,183
+Polyethylene Resin LD-200,2026-11-05,182
+Polyethylene Resin LD-200,2026-11-06,176
+Polyethylene Resin LD-200,2026-11-07,175
+Polyethylene Resin LD-200,2026-11-08,177
+Polyethylene Resin LD-200,2026-11-09,181
+Polyethylene Resin LD-200,2026-11-10,173
+Polyethylene Resin LD-200,2026-11-11,181
+Polyethylene Resin LD-200,2026-11-12,179
+High Barrier PVDC Film 25um,2026-10-14,31
+High Barrier PVDC Film 25um,2026-10-15,29
+High Barrier PVDC Film 25um,2026-10-16,35
+High Barrier PVDC Film 25um,2026-10-17,29
+High Barrier PVDC Film 25um,2026-10-18,38
+High Barrier PVDC Film 25um,2026-10-19,30
+High Barrier PVDC Film 25um,2026-10-20,35
+High Barrier PVDC Film 25um,2026-10-21,32
+High Barrier PVDC Film 25um,2026-10-22,36
+High Barrier PVDC Film 25um,2026-10-23,32
+High Barrier PVDC Film 25um,2026-10-24,34
+High Barrier PVDC Film 25um,2026-10-25,35
+High Barrier PVDC Film 25um,2026-10-26,35
+High Barrier PVDC Film 25um,2026-10-27,31
+High Barrier PVDC Film 25um,2026-10-28,35
+High Barrier PVDC Film 25um,2026-10-29,36
+High Barrier PVDC Film 25um,2026-10-30,30
+High Barrier PVDC Film 25um,2026-10-31,34
+High Barrier PVDC Film 25um,2026-11-01,31
+High Barrier PVDC Film 25um,2026-11-02,37
+High Barrier PVDC Film 25um,2026-11-03,36
+High Barrier PVDC Film 25um,2026-11-04,30
+High Barrier PVDC Film 25um,2026-11-05,29
+High Barrier PVDC Film 25um,2026-11-06,32
+High Barrier PVDC Film 25um,2026-11-07,34
+High Barrier PVDC Film 25um,2026-11-08,33
+High Barrier PVDC Film 25um,2026-11-09,36
+High Barrier PVDC Film 25um,2026-11-10,32
+High Barrier PVDC Film 25um,2026-11-11,28
+High Barrier PVDC Film 25um,2026-11-12,32
+3-Ply Corrugated Shipping Cartons,2026-10-14,194
+3-Ply Corrugated Shipping Cartons,2026-10-15,199
+3-Ply Corrugated Shipping Cartons,2026-10-16,199
+3-Ply Corrugated Shipping Cartons,2026-10-17,200
+3-Ply Corrugated Shipping Cartons,2026-10-18,197
+3-Ply Corrugated Shipping Cartons,2026-10-19,192
+3-Ply Corrugated Shipping Cartons,2026-10-20,197
+3-Ply Corrugated Shipping Cartons,2026-10-21,198
+3-Ply Corrugated Shipping Cartons,2026-10-22,197
+3-Ply Corrugated Shipping Cartons,2026-10-23,195
+3-Ply Corrugated Shipping Cartons,2026-10-24,195
+3-Ply Corrugated Shipping Cartons,2026-10-25,198
+3-Ply Corrugated Shipping Cartons,2026-10-26,198
+3-Ply Corrugated Shipping Cartons,2026-10-27,196
+3-Ply Corrugated Shipping Cartons,2026-10-28,197
+3-Ply Corrugated Shipping Cartons,2026-10-29,195
+3-Ply Corrugated Shipping Cartons,2026-10-30,193
+3-Ply Corrugated Shipping Cartons,2026-10-31,193
+3-Ply Corrugated Shipping Cartons,2026-11-01,199
+3-Ply Corrugated Shipping Cartons,2026-11-02,196
+3-Ply Corrugated Shipping Cartons,2026-11-03,193
+3-Ply Corrugated Shipping Cartons,2026-11-04,196
+3-Ply Corrugated Shipping Cartons,2026-11-05,190
+3-Ply Corrugated Shipping Cartons,2026-11-06,195
+3-Ply Corrugated Shipping Cartons,2026-11-07,197
+3-Ply Corrugated Shipping Cartons,2026-11-08,196
+3-Ply Corrugated Shipping Cartons,2026-11-09,196
+3-Ply Corrugated Shipping Cartons,2026-11-10,200
+3-Ply Corrugated Shipping Cartons,2026-11-11,200
+3-Ply Corrugated Shipping Cartons,2026-11-12,192
+White Masterbatch MB-01,2026-10-14,131
+White Masterbatch MB-01,2026-10-15,133
+White Masterbatch MB-01,2026-10-16,139
+White Masterbatch MB-01,2026-10-17,140
+White Masterbatch MB-01,2026-10-18,136
+White Masterbatch MB-01,2026-10-19,132
+White Masterbatch MB-01,2026-10-20,138
+White Masterbatch MB-01,2026-10-21,132
+White Masterbatch MB-01,2026-10-22,139
+White Masterbatch MB-01,2026-10-23,138
+White Masterbatch MB-01,2026-10-24,131
+White Masterbatch MB-01,2026-10-25,133
+White Masterbatch MB-01,2026-10-26,137
+White Masterbatch MB-01,2026-10-27,141
+White Masterbatch MB-01,2026-10-28,133
+White Masterbatch MB-01,2026-10-29,132
+White Masterbatch MB-01,2026-10-30,138
+White Masterbatch MB-01,2026-10-31,135
+White Masterbatch MB-01,2026-11-01,136
+White Masterbatch MB-01,2026-11-02,140
+White Masterbatch MB-01,2026-11-03,137
+White Masterbatch MB-01,2026-11-04,141
+White Masterbatch MB-01,2026-11-05,132
+White Masterbatch MB-01,2026-11-06,136
+White Masterbatch MB-01,2026-11-07,141
+White Masterbatch MB-01,2026-11-08,139
+White Masterbatch MB-01,2026-11-09,137
+White Masterbatch MB-01,2026-11-10,136
+White Masterbatch MB-01,2026-11-11,141
+White Masterbatch MB-01,2026-11-12,138
+Biaxially-Oriented PP Film,2026-10-14,143
+Biaxially-Oriented PP Film,2026-10-15,152
+Biaxially-Oriented PP Film,2026-10-16,144
+Biaxially-Oriented PP Film,2026-10-17,146
+Biaxially-Oriented PP Film,2026-10-18,153
+Biaxially-Oriented PP Film,2026-10-19,153
+Biaxially-Oriented PP Film,2026-10-20,147
+Biaxially-Oriented PP Film,2026-10-21,146
+Biaxially-Oriented PP Film,2026-10-22,144
+Biaxially-Oriented PP Film,2026-10-23,149
+Biaxially-Oriented PP Film,2026-10-24,144
+Biaxially-Oriented PP Film,2026-10-25,153
+Biaxially-Oriented PP Film,2026-10-26,144
+Biaxially-Oriented PP Film,2026-10-27,150
+Biaxially-Oriented PP Film,2026-10-28,145
+Biaxially-Oriented PP Film,2026-10-29,147
+Biaxially-Oriented PP Film,2026-10-30,143
+Biaxially-Oriented PP Film,2026-10-31,143
+Biaxially-Oriented PP Film,2026-11-01,148
+Biaxially-Oriented PP Film,2026-11-02,143
+Biaxially-Oriented PP Film,2026-11-03,147
+Biaxially-Oriented PP Film,2026-11-04,148
+Biaxially-Oriented PP Film,2026-11-05,148
+Biaxially-Oriented PP Film,2026-11-06,149
+Biaxially-Oriented PP Film,2026-11-07,145
+Biaxially-Oriented PP Film,2026-11-08,146
+Biaxially-Oriented PP Film,2026-11-09,151
+Biaxially-Oriented PP Film,2026-11-10,149
+Biaxially-Oriented PP Film,2026-11-11,152
+Biaxially-Oriented PP Film,2026-11-12,153
+Adhesive Coating AC-100,2026-10-14,53
+Adhesive Coating AC-100,2026-10-15,53
+Adhesive Coating AC-100,2026-10-16,52
+Adhesive Coating AC-100,2026-10-17,60
+Adhesive Coating AC-100,2026-10-18,57
+Adhesive Coating AC-100,2026-10-19,60
+Adhesive Coating AC-100,2026-10-20,61
+Adhesive Coating AC-100,2026-10-21,54
+Adhesive Coating AC-100,2026-10-22,58
+Adhesive Coating AC-100,2026-10-23,60
+Adhesive Coating AC-100,2026-10-24,53
+Adhesive Coating AC-100,2026-10-25,54
+Adhesive Coating AC-100,2026-10-26,58
+Adhesive Coating AC-100,2026-10-27,61
+Adhesive Coating AC-100,2026-10-28,55
+Adhesive Coating AC-100,2026-10-29,58
+Adhesive Coating AC-100,2026-10-30,55
+Adhesive Coating AC-100,2026-10-31,61
+Adhesive Coating AC-100,2026-11-01,51
+Adhesive Coating AC-100,2026-11-02,58
+Adhesive Coating AC-100,2026-11-03,55
+Adhesive Coating AC-100,2026-11-04,61
+Adhesive Coating AC-100,2026-11-05,59
+Adhesive Coating AC-100,2026-11-06,53
+Adhesive Coating AC-100,2026-11-07,52
+Adhesive Coating AC-100,2026-11-08,58
+Adhesive Coating AC-100,2026-11-09,56
+Adhesive Coating AC-100,2026-11-10,60
+Adhesive Coating AC-100,2026-11-11,55
+Adhesive Coating AC-100,2026-11-12,61
+Solvent Base SB-200,2026-10-14,117
+Solvent Base SB-200,2026-10-15,120
+Solvent Base SB-200,2026-10-16,117
+Solvent Base SB-200,2026-10-17,116
+Solvent Base SB-200,2026-10-18,119
+Solvent Base SB-200,2026-10-19,120
+Solvent Base SB-200,2026-10-20,114
+Solvent Base SB-200,2026-10-21,116
+Solvent Base SB-200,2026-10-22,119
+Solvent Base SB-200,2026-10-23,122
+Solvent Base SB-200,2026-10-24,118
+Solvent Base SB-200,2026-10-25,122
+Solvent Base SB-200,2026-10-26,117
+Solvent Base SB-200,2026-10-27,117
+Solvent Base SB-200,2026-10-28,113
+Solvent Base SB-200,2026-10-29,123
+Solvent Base SB-200,2026-10-30,119
+Solvent Base SB-200,2026-10-31,117
+Solvent Base SB-200,2026-11-01,113
+Solvent Base SB-200,2026-11-02,122
+Solvent Base SB-200,2026-11-03,123
+Solvent Base SB-200,2026-11-04,113
+Solvent Base SB-200,2026-11-05,122
+Solvent Base SB-200,2026-11-06,120
+Solvent Base SB-200,2026-11-07,117
+Solvent Base SB-200,2026-11-08,116
+Solvent Base SB-200,2026-11-09,122
+Solvent Base SB-200,2026-11-10,118
+Solvent Base SB-200,2026-11-11,116
+Solvent Base SB-200,2026-11-12,123
+Foam Padding FP-50,2026-10-14,62
+Foam Padding FP-50,2026-10-15,57
+Foam Padding FP-50,2026-10-16,63
+Foam Padding FP-50,2026-10-17,63
+Foam Padding FP-50,2026-10-18,63
+Foam Padding FP-50,2026-10-19,55
+Foam Padding FP-50,2026-10-20,63
+Foam Padding FP-50,2026-10-21,54
+Foam Padding FP-50,2026-10-22,63
+Foam Padding FP-50,2026-10-23,63
+Foam Padding FP-50,2026-10-24,53
+Foam Padding FP-50,2026-10-25,57
+Foam Padding FP-50,2026-10-26,60
+Foam Padding FP-50,2026-10-27,53
+Foam Padding FP-50,2026-10-28,62
+Foam Padding FP-50,2026-10-29,58
+Foam Padding FP-50,2026-10-30,55
+Foam Padding FP-50,2026-10-31,54
+Foam Padding FP-50,2026-11-01,57
+Foam Padding FP-50,2026-11-02,58
+Foam Padding FP-50,2026-11-03,59
+Foam Padding FP-50,2026-11-04,55
+Foam Padding FP-50,2026-11-05,56
+Foam Padding FP-50,2026-11-06,55
+Foam Padding FP-50,2026-11-07,61
+Foam Padding FP-50,2026-11-08,58
+Foam Padding FP-50,2026-11-09,61
+Foam Padding FP-50,2026-11-10,61
+Foam Padding FP-50,2026-11-11,57
+Foam Padding FP-50,2026-11-12,55
+Aluminium Foil AF-12,2026-10-14,77
+Aluminium Foil AF-12,2026-10-15,74
+Aluminium Foil AF-12,2026-10-16,75
+Aluminium Foil AF-12,2026-10-17,71
+Aluminium Foil AF-12,2026-10-18,77
+Aluminium Foil AF-12,2026-10-19,71
+Aluminium Foil AF-12,2026-10-20,72
+Aluminium Foil AF-12,2026-10-21,73
+Aluminium Foil AF-12,2026-10-22,80
+Aluminium Foil AF-12,2026-10-23,80
+Aluminium Foil AF-12,2026-10-24,76
+Aluminium Foil AF-12,2026-10-25,78
+Aluminium Foil AF-12,2026-10-26,75
+Aluminium Foil AF-12,2026-10-27,71
+Aluminium Foil AF-12,2026-10-28,76
+Aluminium Foil AF-12,2026-10-29,70
+Aluminium Foil AF-12,2026-10-30,74
+Aluminium Foil AF-12,2026-10-31,78
+Aluminium Foil AF-12,2026-11-01,71
+Aluminium Foil AF-12,2026-11-02,77
+Aluminium Foil AF-12,2026-11-03,75
+Aluminium Foil AF-12,2026-11-04,80
+Aluminium Foil AF-12,2026-11-05,80
+Aluminium Foil AF-12,2026-11-06,74
+Aluminium Foil AF-12,2026-11-07,79
+Aluminium Foil AF-12,2026-11-08,76
+Aluminium Foil AF-12,2026-11-09,80
+Aluminium Foil AF-12,2026-11-10,75
+Aluminium Foil AF-12,2026-11-11,71
+Aluminium Foil AF-12,2026-11-12,80
+Polypropylene Granules PP-300,2026-10-14,71
+Polypropylene Granules PP-300,2026-10-15,64
+Polypropylene Granules PP-300,2026-10-16,73
+Polypropylene Granules PP-300,2026-10-17,72
+Polypropylene Granules PP-300,2026-10-18,69
+Polypropylene Granules PP-300,2026-10-19,73
+Polypropylene Granules PP-300,2026-10-20,67
+Polypropylene Granules PP-300,2026-10-21,74
+Polypropylene Granules PP-300,2026-10-22,65
+Polypropylene Granules PP-300,2026-10-23,74
+Polypropylene Granules PP-300,2026-10-24,71
+Polypropylene Granules PP-300,2026-10-25,68
+Polypropylene Granules PP-300,2026-10-26,74
+Polypropylene Granules PP-300,2026-10-27,70
+Polypropylene Granules PP-300,2026-10-28,65
+Polypropylene Granules PP-300,2026-10-29,66
+Polypropylene Granules PP-300,2026-10-30,64
+Polypropylene Granules PP-300,2026-10-31,64
+Polypropylene Granules PP-300,2026-11-01,68
+Polypropylene Granules PP-300,2026-11-02,71
+Polypropylene Granules PP-300,2026-11-03,65
+Polypropylene Granules PP-300,2026-11-04,65
+Polypropylene Granules PP-300,2026-11-05,67
+Polypropylene Granules PP-300,2026-11-06,72
+Polypropylene Granules PP-300,2026-11-07,66
+Polypropylene Granules PP-300,2026-11-08,70
+Polypropylene Granules PP-300,2026-11-09,71
+Polypropylene Granules PP-300,2026-11-10,69
+Polypropylene Granules PP-300,2026-11-11,74
+Polypropylene Granules PP-300,2026-11-12,72
+HDPE Resin Grade A,2026-10-14,121
+HDPE Resin Grade A,2026-10-15,114
+HDPE Resin Grade A,2026-10-16,118
+HDPE Resin Grade A,2026-10-17,122
+HDPE Resin Grade A,2026-10-18,113
+HDPE Resin Grade A,2026-10-19,119
+HDPE Resin Grade A,2026-10-20,121
+HDPE Resin Grade A,2026-10-21,118
+HDPE Resin Grade A,2026-10-22,116
+HDPE Resin Grade A,2026-10-23,112
+HDPE Resin Grade A,2026-10-24,117
+HDPE Resin Grade A,2026-10-25,115
+HDPE Resin Grade A,2026-10-26,119
+HDPE Resin Grade A,2026-10-27,119
+HDPE Resin Grade A,2026-10-28,115
+HDPE Resin Grade A,2026-10-29,117
+HDPE Resin Grade A,2026-10-30,113
+HDPE Resin Grade A,2026-10-31,122
+HDPE Resin Grade A,2026-11-01,117
+HDPE Resin Grade A,2026-11-02,120
+HDPE Resin Grade A,2026-11-03,122
+HDPE Resin Grade A,2026-11-04,117
+HDPE Resin Grade A,2026-11-05,112
+HDPE Resin Grade A,2026-11-06,118
+HDPE Resin Grade A,2026-11-07,116
+HDPE Resin Grade A,2026-11-08,115
+HDPE Resin Grade A,2026-11-09,113
+HDPE Resin Grade A,2026-11-10,119
+HDPE Resin Grade A,2026-11-11,113
+HDPE Resin Grade A,2026-11-12,122
+LDPE Film 20um,2026-10-14,69
+LDPE Film 20um,2026-10-15,69
+LDPE Film 20um,2026-10-16,68
+LDPE Film 20um,2026-10-17,59
+LDPE Film 20um,2026-10-18,59
+LDPE Film 20um,2026-10-19,64
+LDPE Film 20um,2026-10-20,62
+LDPE Film 20um,2026-10-21,61
+LDPE Film 20um,2026-10-22,68
+LDPE Film 20um,2026-10-23,62
+LDPE Film 20um,2026-10-24,60
+LDPE Film 20um,2026-10-25,67
+LDPE Film 20um,2026-10-26,62
+LDPE Film 20um,2026-10-27,68
+LDPE Film 20um,2026-10-28,62
+LDPE Film 20um,2026-10-29,62
+LDPE Film 20um,2026-10-30,64
+LDPE Film 20um,2026-10-31,61
+LDPE Film 20um,2026-11-01,68
+LDPE Film 20um,2026-11-02,59
+LDPE Film 20um,2026-11-03,63
+LDPE Film 20um,2026-11-04,61
+LDPE Film 20um,2026-11-05,61
+LDPE Film 20um,2026-11-06,67
+LDPE Film 20um,2026-11-07,63
+LDPE Film 20um,2026-11-08,61
+LDPE Film 20um,2026-11-09,60
+LDPE Film 20um,2026-11-10,69
+LDPE Film 20um,2026-11-11,59
+LDPE Film 20um,2026-11-12,61
+Nylon Film 15um,2026-10-14,13
+Nylon Film 15um,2026-10-15,11
+Nylon Film 15um,2026-10-16,17
+Nylon Film 15um,2026-10-17,13
+Nylon Film 15um,2026-10-18,8
+Nylon Film 15um,2026-10-19,10
+Nylon Film 15um,2026-10-20,12
+Nylon Film 15um,2026-10-21,8
+Nylon Film 15um,2026-10-22,10
+Nylon Film 15um,2026-10-23,14
+Nylon Film 15um,2026-10-24,16
+Nylon Film 15um,2026-10-25,9
+Nylon Film 15um,2026-10-26,9
+Nylon Film 15um,2026-10-27,15
+Nylon Film 15um,2026-10-28,15
+Nylon Film 15um,2026-10-29,13
+Nylon Film 15um,2026-10-30,16
+Nylon Film 15um,2026-10-31,17
+Nylon Film 15um,2026-11-01,9
+Nylon Film 15um,2026-11-02,15
+Nylon Film 15um,2026-11-03,16
+Nylon Film 15um,2026-11-04,11
+Nylon Film 15um,2026-11-05,17
+Nylon Film 15um,2026-11-06,8
+Nylon Film 15um,2026-11-07,18
+Nylon Film 15um,2026-11-08,16
+Nylon Film 15um,2026-11-09,12
+Nylon Film 15um,2026-11-10,15
+Nylon Film 15um,2026-11-11,18
+Nylon Film 15um,2026-11-12,8
+PET Film 12um,2026-10-14,27
+PET Film 12um,2026-10-15,26
+PET Film 12um,2026-10-16,26
+PET Film 12um,2026-10-17,30
+PET Film 12um,2026-10-18,21
+PET Film 12um,2026-10-19,27
+PET Film 12um,2026-10-20,27
+PET Film 12um,2026-10-21,21
+PET Film 12um,2026-10-22,21
+PET Film 12um,2026-10-23,25
+PET Film 12um,2026-10-24,29
+PET Film 12um,2026-10-25,22
+PET Film 12um,2026-10-26,21
+PET Film 12um,2026-10-27,22
+PET Film 12um,2026-10-28,24
+PET Film 12um,2026-10-29,29
+PET Film 12um,2026-10-30,30
+PET Film 12um,2026-10-31,29
+PET Film 12um,2026-11-01,28
+PET Film 12um,2026-11-02,25
+PET Film 12um,2026-11-03,26
+PET Film 12um,2026-11-04,29
+PET Film 12um,2026-11-05,28
+PET Film 12um,2026-11-06,24
+PET Film 12um,2026-11-07,27
+PET Film 12um,2026-11-08,28
+PET Film 12um,2026-11-09,29
+PET Film 12um,2026-11-10,26
+PET Film 12um,2026-11-11,21
+PET Film 12um,2026-11-12,21
+Stretch Film SF-25,2026-10-14,182
+Stretch Film SF-25,2026-10-15,180
+Stretch Film SF-25,2026-10-16,175
+Stretch Film SF-25,2026-10-17,178
+Stretch Film SF-25,2026-10-18,179
+Stretch Film SF-25,2026-10-19,175
+Stretch Film SF-25,2026-10-20,178
+Stretch Film SF-25,2026-10-21,177
+Stretch Film SF-25,2026-10-22,179
+Stretch Film SF-25,2026-10-23,178
+Stretch Film SF-25,2026-10-24,178
+Stretch Film SF-25,2026-10-25,173
+Stretch Film SF-25,2026-10-26,177
+Stretch Film SF-25,2026-10-27,178
+Stretch Film SF-25,2026-10-28,177
+Stretch Film SF-25,2026-10-29,182
+Stretch Film SF-25,2026-10-30,176
+Stretch Film SF-25,2026-10-31,177
+Stretch Film SF-25,2026-11-01,174
+Stretch Film SF-25,2026-11-02,182
+Stretch Film SF-25,2026-11-03,179
+Stretch Film SF-25,2026-11-04,173
+Stretch Film SF-25,2026-11-05,173
+Stretch Film SF-25,2026-11-06,173
+Stretch Film SF-25,2026-11-07,173
+Stretch Film SF-25,2026-11-08,178
+Stretch Film SF-25,2026-11-09,173
+Stretch Film SF-25,2026-11-10,177
+Stretch Film SF-25,2026-11-11,174
+Stretch Film SF-25,2026-11-12,180
+Shrink Film SH-30,2026-10-14,29
+Shrink Film SH-30,2026-10-15,28
+Shrink Film SH-30,2026-10-16,28
+Shrink Film SH-30,2026-10-17,25
+Shrink Film SH-30,2026-10-18,30
+Shrink Film SH-30,2026-10-19,21
+Shrink Film SH-30,2026-10-20,26
+Shrink Film SH-30,2026-10-21,25
+Shrink Film SH-30,2026-10-22,30
+Shrink Film SH-30,2026-10-23,26
+Shrink Film SH-30,2026-10-24,20
+Shrink Film SH-30,2026-10-25,24
+Shrink Film SH-30,2026-10-26,29
+Shrink Film SH-30,2026-10-27,24
+Shrink Film SH-30,2026-10-28,25
+Shrink Film SH-30,2026-10-29,21
+Shrink Film SH-30,2026-10-30,29
+Shrink Film SH-30,2026-10-31,28
+Shrink Film SH-30,2026-11-01,23
+Shrink Film SH-30,2026-11-02,22
+Shrink Film SH-30,2026-11-03,30
+Shrink Film SH-30,2026-11-04,27
+Shrink Film SH-30,2026-11-05,23
+Shrink Film SH-30,2026-11-06,21
+Shrink Film SH-30,2026-11-07,25
+Shrink Film SH-30,2026-11-08,28
+Shrink Film SH-30,2026-11-09,25
+Shrink Film SH-30,2026-11-10,21
+Shrink Film SH-30,2026-11-11,24
+Shrink Film SH-30,2026-11-12,29
