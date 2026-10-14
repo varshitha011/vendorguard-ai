@@ -6,9 +6,13 @@ export function simulateMaterial(material:MaterialExposure,delay:number) {
   let previous=material.available_stock;
   const receipts=new Map<number,number>();
   for(const point of material.trajectory_base) {
-    // Some source trajectories clamp depleted inventory to zero. Do not
-    // interpret that floor as a daily replenishment after stock is exhausted.
-    const receipt=point.balance===0&&previous===0?0:Math.max(0,point.balance-previous+material.daily_consumption);
+    // BUG-22 fix: guard against zeroing a legitimate receipt that arrives exactly
+    // when balance is at 0. If previous balance was 0 AND current balance is also 0,
+    // no receipt arrived (stock was already depleted and stays depleted).
+    // But if current balance > 0 while previous was 0, a receipt did arrive.
+    const receipt = (point.balance === 0 && previous === 0)
+      ? 0
+      : Math.max(0, point.balance - previous + material.daily_consumption);
     if(receipt>0)receipts.set(point.day,receipt);
     previous=point.balance;
   }

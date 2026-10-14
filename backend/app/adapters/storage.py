@@ -20,9 +20,9 @@ sync_engine = create_engine(
 SyncSessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=sync_engine)
 
 # Async engine & sessionmaker (for FastAPI async request handlers)
+# NOTE: check_same_thread is sqlite3-only and not valid for aiosqlite — omitted here.
 async_engine = create_async_engine(
     ASYNC_DATABASE_URL,
-    connect_args={"check_same_thread": False} if "sqlite" in ASYNC_DATABASE_URL else {},
     echo=False,
 )
 AsyncSessionLocal = async_sessionmaker(

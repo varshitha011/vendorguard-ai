@@ -17,7 +17,7 @@ class ImportPreviewRequest(BaseModel):
     tenant_id: str = "tenant-demo"
 
 
-@router.post("/preview")
+@router.post("/preview", status_code=200)
 def preview_import(payload: ImportPreviewRequest):
     """Validates raw CSV text and stages for review without business writes."""
     try:
@@ -31,7 +31,7 @@ def preview_import(payload: ImportPreviewRequest):
         raise HTTPException(status_code=400, detail=str(e))
 
 
-@router.post("/{preview_id}/commit")
+@router.post("/{preview_id}/commit", status_code=201)
 def commit_import(preview_id: str, db: Session = Depends(get_sync_session)):
     """Commits a validated staged import transactionally."""
     try:

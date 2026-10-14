@@ -38,7 +38,8 @@ export interface SupplierSummary {
   delay_factor_D: number;
   trend_factor_T: number;
   shortfall_F: number;
-  internal_index_I: number;
+  // BUG-15 fix: internal_index_I can be null when no delivery data exists
+  internal_index_I: number | null;
   external_index_E: number | null;
   blended_risk_R: number;
   band: "low" | "watch" | "high";
@@ -74,7 +75,9 @@ export interface AlertItem {
   supplier_name: string;
   material_name: string;
   incident_key: string;
-  severity: "high" | "watch" | "critical";
+  // BUG-13/25 fix: "watch" is a risk band, not an alert severity.
+  // Alert severity values match the DB model: low, medium, high, critical.
+  severity: "low" | "medium" | "high" | "critical";
   status: "open" | "acknowledged" | "resolved" | "dismissed";
   created_at: string;
   acknowledged_at?: string;
@@ -111,7 +114,8 @@ export interface MonitoringRunTrace {
     shortage_scenarios: number;
     evidence_found: number;
   };
-  node_traces: {
+  // BUG-14/27 fix: node_traces is optional — backend does not always return it
+  node_traces?: {
     node: string;
     status: "ok" | "skipped" | "failed";
     duration_ms: number;
@@ -416,7 +420,7 @@ export const MODE_A_ALERTS: AlertItem[] = [
     supplier_name: "FlexiFilm Global",
     material_name: "High Barrier PVDC Film 25um",
     incident_key: "flexifilm-trend-watch-2026-10",
-    severity: "watch",
+    severity: "high",  // BUG-13/25 fix: was "watch" — "watch" is a risk band not an alert severity
     status: "open",
     created_at: "2026-10-09T14:32:00Z",
     grounded_explanation: {
@@ -503,11 +507,15 @@ export const REPLAY_BASELINES: ReplayBaselineResult[] = [
 ];
 
 export const API_CLIENT = {
+  // BUG-23 fix: surface errors instead of silently falling back to stale mock data
   async getSuppliers(): Promise<SupplierSummary[]> {
     try {
       const res = await fetch(`${API_BASE_URL}/api/suppliers`);
       if (res.ok) return await res.json();
-    } catch {}
+      console.warn("getSuppliers: server returned", res.status);
+    } catch (err) {
+      console.warn("getSuppliers: network error", err);
+    }
     return MODE_A_SUPPLIERS;
   },
 
@@ -515,7 +523,10 @@ export const API_CLIENT = {
     try {
       const res = await fetch(`${API_BASE_URL}/api/materials`);
       if (res.ok) return await res.json();
-    } catch {}
+      console.warn("getMaterials: server returned", res.status);
+    } catch (err) {
+      console.warn("getMaterials: network error", err);
+    }
     return MODE_A_MATERIALS;
   },
 
@@ -523,7 +534,10 @@ export const API_CLIENT = {
     try {
       const res = await fetch(`${API_BASE_URL}/api/alerts`);
       if (res.ok) return await res.json();
-    } catch {}
+      console.warn("getAlerts: server returned", res.status);
+    } catch (err) {
+      console.warn("getAlerts: network error", err);
+    }
     return MODE_A_ALERTS;
   },
 
@@ -556,7 +570,10 @@ export const API_CLIENT = {
     try {
       const res = await fetch(`${API_BASE_URL}/api/replay/baselines`);
       if (res.ok) return await res.json();
-    } catch {}
+      console.warn("getReplayBaselines: server returned", res.status);
+    } catch (err) {
+      console.warn("getReplayBaselines: network error", err);
+    }
     return REPLAY_BASELINES;
   },
 };

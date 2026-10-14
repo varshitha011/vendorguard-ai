@@ -1,0 +1,12 @@
+po_number,line_number,supplier_name,material_name,ordered_quantity,unit,committed_due_date
+PO-2026-001,1,Apex Polymers Ltd,PE resin HD-500,5000,kg,2026-10-15
+PO-2026-001,2,Apex Polymers Ltd,PVDC barrier film,2000,kg,2026-10-15
+PO-2026-002,1,Global Packaging Co,White masterbatch,1000,kg,2026-10-12
+PO-2026-002,2,Global Packaging Co,Cardboard liner,5000,units,2026-10-10
+PO-2026-003,1,FutureFlex Materials,Polypropylene granules,3000,kg,2026-10-18
+PO-2026-004,1,Prime Chemicals India,Adhesive coating,500,litre,2026-10-14
+PO-2026-004,2,Prime Chemicals India,Solvent base,300,litre,2026-10-14
+PO-2026-005,1,EcoWrap Solutions,Foam padding,800,kg,2026-10-20
+PO-2026-005,2,EcoWrap Solutions,Aluminium foil,1200,kg,2026-10-20
+PO-2026-006,1,SteelCore Supplies,Steel wire mesh,2500,kg,2026-10-22
+PO-2026-007,1,Reliable Resins Ltd,PE resin HD-500,4000,kg,2026-10-25

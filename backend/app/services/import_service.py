@@ -255,93 +255,119 @@ def commit_staged_import(preview_id: str, db: Session) -> Dict[str, Any]:
     tenant_id = staged["tenant_id"]
     file_type = staged["file_type"]
     rows = staged["all_valid_rows"]
-
     inserted_count = 0
 
-    if file_type == "suppliers":
-        for r in rows:
-            supplier = (
-                db.query(Supplier)
-                .filter(Supplier.tenant_id == tenant_id, Supplier.legal_name == r["legal_name"])
-                .first()
-            )
-            if not supplier:
-                supplier = Supplier(
-                    tenant_id=tenant_id,
-                    legal_name=r["legal_name"],
-                    aliases=r["aliases"],
-                    domain=r["domain"],
-                    location=r["location"],
-                )
-                db.add(supplier)
-                inserted_count += 1
-            else:
-                supplier.aliases = r["aliases"]
-                supplier.domain = r["domain"]
-                supplier.location = r["location"]
-
-    elif file_type == "materials":
-        for r in rows:
-            material = (
-                db.query(Material)
-                .filter(Material.tenant_id == tenant_id, Material.name == r["name"])
-                .first()
-            )
-            if not material:
-                material = Material(
-                    tenant_id=tenant_id,
-                    name=r["name"],
-                    canonical_unit=r["canonical_unit"],
-                    criticality=r["criticality"],
-                )
-                db.add(material)
-                inserted_count += 1
-            else:
-                material.canonical_unit = r["canonical_unit"]
-                material.criticality = r["criticality"]
-
-    elif file_type == "supplier_materials":
-        for r in rows:
-            sup = (
-                db.query(Supplier)
-                .filter(Supplier.tenant_id == tenant_id, Supplier.legal_name == r["supplier_name"])
-                .first()
-            )
-            mat = (
-                db.query(Material)
-                .filter(Material.tenant_id == tenant_id, Material.name == r["material_name"])
-                .first()
-            )
-            if sup and mat:
-                link = (
-                    db.query(SupplierMaterial)
-                    .filter(SupplierMaterial.supplier_id == sup.id, SupplierMaterial.material_id == mat.id)
+    # BUG-09 fix: wrap entire commit loop in try/except with rollback on failure
+    try:
+        if file_type == "suppliers":
+            for r in rows:
+                supplier = (
+                    db.query(Supplier)
+                    .filter(Supplier.tenant_id == tenant_id, Supplier.legal_name == r["legal_name"])
                     .first()
                 )
-                if not link:
-                    link = SupplierMaterial(
-                        supplier_id=sup.id,
-                        material_id=mat.id,
-                        normal_lead_time_days=r["normal_lead_time_days"],
-                        is_approved=r["is_approved"],
+                if not supplier:
+                    supplier = Supplier(
+                        tenant_id=tenant_id,
+                        legal_name=r["legal_name"],
+                        aliases=r["aliases"],
+                        domain=r["domain"],
+                        location=r["location"],
                     )
-                    db.add(link)
+                    db.add(supplier)
                     inserted_count += 1
+                else:
+                    supplier.aliases = r["aliases"]
+                    supplier.domain = r["domain"]
+                    supplier.location = r["location"]
 
-    elif file_type == "purchase_order_lines":
-        for r in rows:
-            sup = (
-                db.query(Supplier)
-                .filter(Supplier.tenant_id == tenant_id, Supplier.legal_name == r["supplier_name"])
-                .first()
-            )
-            mat = (
-                db.query(Material)
-                .filter(Material.tenant_id == tenant_id, Material.name == r["material_name"])
-                .first()
-            )
-            if sup and mat:
-                existing = (
+        elif file_type == "materials":
+            for r in rows:
+                material = (
+                    db.query(Material)
+                    .filter(Material.tenant_id == tenant_id, Material.name == r["name"])
+                    .first()
+                )
+                if not material:
+                    material = Material(
+                        tenant_id=tenant_id,
+                        name=r["name"],
+                        canonical_unit=r["canonical_unit"],
+                        criticality=r["criticality"],
+                    )
+                    db.add(material)
+                    inserted_count += 1
+                else:
+                    material.canonical_unit = r["canonical_unit"]
+                    material.criticality = r["criticality"]
+
+        elif file_type == "supplier_materials":
+            for r in rows:
+                sup = (
+                    db.query(Supplier)
+                    .filter(Supplier.tenant_id == tenant_id, Supplier.legal_name == r["supplier_name"])
+                    .first()
+                )
+                mat = (
+                    db.query(Material)
+                    .filter(Material.tenant_id == tenant_id, Material.name == r["material_name"])
+                    .first()
+                )
+                if sup and mat:
+                    link = (
+                        db.query(SupplierMaterial)
+                        .filter(SupplierMaterial.supplier_id == sup.id, SupplierMaterial.material_id == mat.id)
+                        .first()
+                    )
+                    if not link:
+                        link = SupplierMaterial(
+                            supplier_id=sup.id,
+                            material_id=mat.id,
+                            normal_lead_time_days=r["normal_lead_time_days"],
+                            is_approved=r["is_approved"],
+                        )
+                        db.add(link)
+                        inserted_count += 1
+
+        elif file_type == "purchase_order_lines":
+            for r in rows:
+                sup = (
+                    db.query(Supplier)
+                    .filter(Supplier.tenant_id == tenant_id, Supplier.legal_name == r["supplier_name"])
+                    .first()
+                )
+                mat = (
+                    db.query(Material)
+                    .filter(Material.tenant_id == tenant_id, Material.name == r["material_name"])
+                    .first()
+                )
+                if sup and mat:
+                    existing = (
+                        db.query(PurchaseOrderLine)
+                        .filter(
+                            PurchaseOrderLine.tenant_id == tenant_id,
+                            PurchaseOrderLine.po_number == r["po_number"],
+                            PurchaseOrderLine.line_number == r["line_number"],
+                        )
+                        .first()
+                    )
+                    if not existing:
+                        po_line = PurchaseOrderLine(
+                            tenant_id=tenant_id,
+                            supplier_id=sup.id,
+                            material_id=mat.id,
+                            po_number=r["po_number"],
+                            line_number=r["line_number"],
+                            ordered_quantity=r["ordered_quantity"],
+                            unit=r["unit"],
+                            committed_due_date=date.fromisoformat(r["committed_due_date"]),
+                        )
+                        db.add(po_line)
+                        inserted_count += 1
+
+        elif file_type == "receipts":
+            for r in rows:
+                po_line = (
                     db.query(PurchaseOrderLine)
                     .filter(
                         PurchaseOrderLine.tenant_id == tenant_id,
@@ -350,81 +376,60 @@ def commit_staged_import(preview_id: str, db: Session) -> Dict[str, Any]:
                     )
                     .first()
                 )
-                if not existing:
-                    po_line = PurchaseOrderLine(
-                        tenant_id=tenant_id,
-                        supplier_id=sup.id,
-                        material_id=mat.id,
-                        po_number=r["po_number"],
-                        line_number=r["line_number"],
-                        ordered_quantity=r["ordered_quantity"],
-                        unit=r["unit"],
-                        committed_due_date=date.fromisoformat(r["committed_due_date"]),
+                if po_line:
+                    receipt = Receipt(
+                        po_line_id=po_line.id,
+                        accepted_quantity=r["accepted_quantity"],
+                        rejected_quantity=r["rejected_quantity"],
+                        received_at=datetime.fromisoformat(r["received_at"]),
                     )
-                    db.add(po_line)
+                    db.add(receipt)
                     inserted_count += 1
 
-    elif file_type == "receipts":
-        for r in rows:
-            po_line = (
-                db.query(PurchaseOrderLine)
-                .filter(
-                    PurchaseOrderLine.tenant_id == tenant_id,
-                    PurchaseOrderLine.po_number == r["po_number"],
-                    PurchaseOrderLine.line_number == r["line_number"],
+        elif file_type == "inventory_snapshots":
+            for r in rows:
+                mat = (
+                    db.query(Material)
+                    .filter(Material.tenant_id == tenant_id, Material.name == r["material_name"])
+                    .first()
                 )
-                .first()
-            )
-            if po_line:
-                receipt = Receipt(
-                    po_line_id=po_line.id,
-                    accepted_quantity=r["accepted_quantity"],
-                    rejected_quantity=r["rejected_quantity"],
-                    received_at=datetime.fromisoformat(r["received_at"]),
-                )
-                db.add(receipt)
-                inserted_count += 1
+                if mat:
+                    snap = InventorySnapshot(
+                        tenant_id=tenant_id,
+                        material_id=mat.id,
+                        warehouse=r["warehouse"],
+                        on_hand_quantity=r["on_hand_quantity"],
+                        reserved_quantity=r["reserved_quantity"],
+                        observed_at=datetime.fromisoformat(r["observed_at"]),
+                    )
+                    db.add(snap)
+                    inserted_count += 1
 
-    elif file_type == "inventory_snapshots":
-        for r in rows:
-            mat = (
-                db.query(Material)
-                .filter(Material.tenant_id == tenant_id, Material.name == r["material_name"])
-                .first()
-            )
-            if mat:
-                snap = InventorySnapshot(
-                    tenant_id=tenant_id,
-                    material_id=mat.id,
-                    warehouse=r["warehouse"],
-                    on_hand_quantity=r["on_hand_quantity"],
-                    reserved_quantity=r["reserved_quantity"],
-                    observed_at=datetime.fromisoformat(r["observed_at"]),
+        elif file_type == "demand_forecasts":
+            for r in rows:
+                mat = (
+                    db.query(Material)
+                    .filter(Material.tenant_id == tenant_id, Material.name == r["material_name"])
+                    .first()
                 )
-                db.add(snap)
-                inserted_count += 1
+                if mat:
+                    demand = DemandForecast(
+                        tenant_id=tenant_id,
+                        material_id=mat.id,
+                        date=date.fromisoformat(r["date"]),
+                        daily_quantity=r["daily_quantity"],
+                    )
+                    db.add(demand)
+                    inserted_count += 1
 
-    elif file_type == "demand_forecasts":
-        for r in rows:
-            mat = (
-                db.query(Material)
-                .filter(Material.tenant_id == tenant_id, Material.name == r["material_name"])
-                .first()
-            )
-            if mat:
-                demand = DemandForecast(
-                    tenant_id=tenant_id,
-                    material_id=mat.id,
-                    date=date.fromisoformat(r["date"]),
-                    daily_quantity=r["daily_quantity"],
-                )
-                db.add(demand)
-                inserted_count += 1
+        db.commit()
+        return {
+            "preview_id": preview_id,
+            "file_type": file_type,
+            "committed_records": inserted_count,
+            "status": "committed",
+        }
 
-    db.commit()
-    return {
-        "preview_id": preview_id,
-        "file_type": file_type,
-        "committed_records": inserted_count,
-        "status": "committed",
-    }
+    except Exception:
+        db.rollback()
+        raise

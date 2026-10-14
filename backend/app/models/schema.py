@@ -43,6 +43,11 @@ class Tenant(Base):
     suppliers: Mapped[List["Supplier"]] = relationship(back_populates="tenant", cascade="all, delete-orphan")
     materials: Mapped[List["Material"]] = relationship(back_populates="tenant", cascade="all, delete-orphan")
     monitoring_runs: Mapped[List["MonitoringRun"]] = relationship(back_populates="tenant", cascade="all, delete-orphan")
+    # BUG-05/07/17 fix: add missing cascade relationships so tenant deletes clean up all child rows
+    inventory_snapshots: Mapped[List["InventorySnapshot"]] = relationship(back_populates="tenant", cascade="all, delete-orphan")
+    demand_forecasts: Mapped[List["DemandForecast"]] = relationship(back_populates="tenant", cascade="all, delete-orphan")
+    assessments: Mapped[List["Assessment"]] = relationship(back_populates="tenant", cascade="all, delete-orphan")
+    alerts: Mapped[List["Alert"]] = relationship(back_populates="tenant", cascade="all, delete-orphan")
 
 
 class Supplier(Base):
@@ -61,6 +66,8 @@ class Supplier(Base):
     materials: Mapped[List["SupplierMaterial"]] = relationship(back_populates="supplier")
     order_lines: Mapped[List["PurchaseOrderLine"]] = relationship(back_populates="supplier")
     assessments: Mapped[List["Assessment"]] = relationship(back_populates="supplier")
+    # BUG-06 fix: add missing back-reference for EvidenceItem
+    evidence_items: Mapped[List["EvidenceItem"]] = relationship(back_populates="supplier")
 
     __table_args__ = (
         UniqueConstraint("tenant_id", "legal_name", name="uq_supplier_tenant_name"),
@@ -168,6 +175,8 @@ class InventorySnapshot(Base):
     recorded_at: Mapped[datetime] = mapped_column(DateTime, default=datetime.utcnow)
 
     material: Mapped["Material"] = relationship(back_populates="inventory_snapshots")
+    # BUG-07 fix: add back-reference to Tenant
+    tenant: Mapped["Tenant"] = relationship(back_populates="inventory_snapshots")
 
     __table_args__ = (
         Index("ix_inv_tenant_material_observed", "tenant_id", "material_id", "observed_at"),
@@ -185,6 +194,8 @@ class DemandForecast(Base):
     forecast_as_of: Mapped[datetime] = mapped_column(DateTime, default=datetime.utcnow)
 
     material: Mapped["Material"] = relationship(back_populates="demand_forecasts")
+    # BUG-07 fix: add back-reference to Tenant
+    tenant: Mapped["Tenant"] = relationship(back_populates="demand_forecasts")
 
 
 class MonitoringRun(Base):
@@ -226,6 +237,8 @@ class EvidenceItem(Base):
     freshness_factor: Mapped[float] = mapped_column(Float, default=1.0)
     supporting_excerpt: Mapped[str] = mapped_column(Text, nullable=False)
     is_synthetic: Mapped[bool] = mapped_column(Boolean, default=True)
+    # BUG-06 fix: add back-reference to Supplier
+    supplier: Mapped["Supplier"] = relationship(back_populates="evidence_items")
 
 
 class Assessment(Base):
@@ -245,6 +258,8 @@ class Assessment(Base):
 
     supplier: Mapped["Supplier"] = relationship(back_populates="assessments")
     run: Mapped["MonitoringRun"] = relationship(back_populates="assessments")
+    # BUG-05 fix: add back-reference to Tenant
+    tenant: Mapped["Tenant"] = relationship(back_populates="assessments")
     evidence_links: Mapped[List["AssessmentEvidence"]] = relationship(back_populates="assessment", cascade="all, delete-orphan")
     alerts: Mapped[List["Alert"]] = relationship(back_populates="assessment", cascade="all, delete-orphan")
 
@@ -281,6 +296,8 @@ class Alert(Base):
 
     assessment: Mapped["Assessment"] = relationship(back_populates="alerts")
     feedback: Mapped[List["AlertFeedback"]] = relationship(back_populates="alert", cascade="all, delete-orphan")
+    # BUG-17 fix: add back-reference to Tenant
+    tenant: Mapped["Tenant"] = relationship(back_populates="alerts")
 
     __table_args__ = (
         UniqueConstraint("tenant_id", "incident_key", name="uq_alert_incident_key"),

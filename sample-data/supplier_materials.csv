@@ -1,0 +1,12 @@
+supplier_name,material_name,normal_lead_time_days,is_approved
+Apex Polymers Ltd,PE resin HD-500,7,true
+Apex Polymers Ltd,PVDC barrier film,10,true
+Global Packaging Co,White masterbatch,5,true
+Global Packaging Co,Cardboard liner,3,true
+FutureFlex Materials,Polypropylene granules,8,true
+Prime Chemicals India,Adhesive coating,6,true
+Prime Chemicals India,Solvent base,7,true
+EcoWrap Solutions,Foam padding,4,true
+EcoWrap Solutions,Aluminium foil,5,true
+Reliable Resins Ltd,PE resin HD-500,9,true
+SteelCore Supplies,Steel wire mesh,6,true

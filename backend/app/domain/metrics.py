@@ -155,7 +155,14 @@ def calculate_operational_indicators(
         prev_mean_delay = float(np.mean(prev_completed_delays))
         # T scaled to 5 days
         T = clip((recent_mean_delay - prev_mean_delay) / 5.0, 0.0, 1.0)
+    elif len(recent_completed_delays) > 0:
+        # BUG-19 fix: recent data exists but no prior window — T can still be computed
+        # as recent mean delay alone (no worsening trend detectable, T=0) but do NOT
+        # mark T as missing since we have meaningful recent data.
+        prev_mean_delay = 0.0
+        T = 0.0
     else:
+        # No recent data at all — T is genuinely missing
         prev_mean_delay = 0.0
         T = 0.0
         missing_factors.append("T")
