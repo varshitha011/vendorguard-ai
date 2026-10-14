@@ -1,5 +1,4 @@
-# SYNTHETIC TEST DATA
-po_number,line_number,supplier_name,material_name,ordered_quantity,unit,committed_due_date
+﻿po_number,line_number,supplier_name,material_name,ordered_quantity,unit,committed_due_date
 PO-2026-1000,1,Apex Polymers Ltd,Polyethylene Resin HD-500,1500,kg,2026-10-01
 PO-2026-1001,1,Apex Polymers Ltd,3-Ply Corrugated Shipping Cartons,1500,units,2026-09-16
 PO-2026-1002,1,NovaPlast Resins Corp,Nylon Film 15um,100,rolls,2026-10-09

@@ -1,4 +1,3 @@
-# SYNTHETIC TEST DATA — NOT REAL SUPPLIER-MATERIAL RELATIONSHIPS
 supplier_name,material_name,normal_lead_time_days,is_approved
 Apex Polymers Ltd,Polyethylene Resin HD-500,7,true
 Apex Polymers Ltd,Polypropylene Granules PP-300,8,true

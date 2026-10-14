@@ -1,5 +1,4 @@
-# SYNTHETIC TEST DATA
-po_number,line_number,accepted_quantity,rejected_quantity,received_at
+﻿po_number,line_number,accepted_quantity,rejected_quantity,received_at
 PO-2026-1000,1,1092,408,2026-10-07T00:00:00Z
 PO-2026-1002,1,92,8,2026-10-09T00:00:00Z
 PO-2026-1003,1,920,80,2026-10-13T00:00:00Z

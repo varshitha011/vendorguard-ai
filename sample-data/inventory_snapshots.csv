@@ -1,5 +1,4 @@
-# SYNTHETIC TEST DATA
-material_name,warehouse,on_hand_quantity,reserved_quantity,observed_at
+﻿material_name,warehouse,on_hand_quantity,reserved_quantity,observed_at
 Polyethylene Resin HD-500,Main Warehouse,924,69,2026-10-14T00:00:00Z
 Polyethylene Resin LD-200,Main Warehouse,1124,138,2026-10-14T00:00:00Z
 High Barrier PVDC Film 25um,Main Warehouse,1111,112,2026-10-14T00:00:00Z
